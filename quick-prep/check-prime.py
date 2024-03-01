@@ -1,4 +1,8 @@
 def checkPrime(x):
+    """
+    First check if the number is less than 2. Then, check if the number is divisible by
+    any number from 2 to sqrt(number) inclusive to determine whether it's prime.
+    """
     if x < 2:
         return "Not Prime"
     
