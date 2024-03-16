@@ -1,4 +1,4 @@
-def firstNonUnique(inputString: str):
+def firstUnique(inputString: str):
     hashMap = {}
     
     for char in inputString:
@@ -16,7 +16,7 @@ def firstNonUnique(inputString: str):
     
 def main():
     inputString = 'statistics'
-    print(firstNonUnique(inputString))
+    print(firstUnique(inputString))
     
     
 if __name__ == '__main__':
