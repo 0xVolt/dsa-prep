@@ -21,7 +21,7 @@ def processorTime(processors, tasks):
 
 
 def main():
-    P = [5, 11]
+    P = [5, 11, 4, 12]
     T = [3, 1, 8, 7, 4, 2, 5, 2]
     
     processorTime(P, T)
