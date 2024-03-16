@@ -1,9 +1,6 @@
 def processorTime(processors, tasks):
     processors = sorted(processors)
     tasks = sorted(tasks, reverse=True)    
-    
-    # nProcessors = len(processors)
-    # nTasks = len(tasks)
 
     result = 0
 
@@ -21,6 +18,7 @@ def processorTime(processors, tasks):
             result = maxTime
             
     print(result)
+
 
 def main():
     P = [5, 11]
